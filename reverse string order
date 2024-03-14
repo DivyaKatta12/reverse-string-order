@@ -1,0 +1,10 @@
+def reverse_string_order(string):
+    words = string.split()
+    reversed_words = words[::-1]
+    reversed_string = ' '.join(reversed_words)
+    return reversed_string
+
+# Example usage:
+input_string = input("Enter a string: ")
+reversed_order_string = reverse_string_order(input_string)
+print("String with reversed word order:", reversed_order_string)
